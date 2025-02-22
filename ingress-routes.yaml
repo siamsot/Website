@@ -10,7 +10,7 @@ spec:
     - $WEBSITE
     secretName: tls-secret
   rules:
-    - host: $WEBSITE
+  - host: $WEBSITE
     http:
       paths:
       - path: /
