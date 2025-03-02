@@ -15,6 +15,7 @@ spec:
       containers:
         - name: webserver-app
           image: $DOCKERNAME/website:latest
+      imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
